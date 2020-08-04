@@ -4,6 +4,8 @@
  * Projeto responsável por perguntas e respostas, como se fosse um Yahoo
  */
 
+/**Teste para verificar se o gitignore está funcionando corretamente */
+
  const express = require("express");
  const app = express();
 
