@@ -18,7 +18,7 @@
         res.render("notAuthorized")
     }
  });
-
+ 
  app.listen(8080,() => {
      console.log("App rodando na porta 8080!")
  });
