@@ -6,8 +6,26 @@
     <title>Pergunte aqui!</title>
 </head>
 <body>
+
     <h1>Guia perguntas!</h1>
     <hr>
     <h3>Pergunte aqui:</h3>
+    
+
+    <table border="1px">
+        <tr>
+            <td><%= nome %></td>
+            <td><%= lang %></td>
+            <td><%= empresa %></td>
+            <td><%= inscritos %></td>
+        </tr>
+    </table>
+
+    <% if(hasError){ %>
+        <h3>Isso é uma mensagem de erro</h3>
+    <%} else { %>
+        <h2>Nenhum erro encontrado</h2>
+    <%}%>
+    
 </body>
 </html>
